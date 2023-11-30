@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GenussBoten</title>
+    <link rel="stylesheet" href="node_modules//bootstrap/dist/css/bootstrap-reboot.min.css">
+    <title>Quiz App</title>
    
     <link rel="icon" type="image/x-icon" href="./svg/favicon.svg">
 
@@ -14,59 +15,29 @@
 <header>
     <navbar>
         <div class="navbar-inner">
-        <a href="#" class="logo"><img src="./svg/logo.svg">GenussBoten</a>
+        <a href="#" class="logo"><img src="./svg/logo.svg">Quiz App</a>
         </div>
     </navbar>
 </header>
-<body onload="renderBasket()">
+<body >
     <section class="header">
-        <div class="header-image"></div>
+        <h1>hallo Welt</h1>
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
     </section>
     <!-- left side   -->
-    <section class="restaurant">
-        <div class="restaurant-details">
-            <div class="main">
-            <h1>Verenas Burger</h1>
-            <div class="restaurant-evaluation">
-            <img src="./svg/star.png" alt="">
-            <img src="./svg/star.png" alt="">
-            <img src="./svg/star.png" alt="">
-            <img src="./svg/star.png" alt="">
-            <img src="./svg/star.png" alt="">
-            <span>10.5k Bewertungen</span>
-         </div>
-         <div class="restaurant-evaluation">
-            <div class="restaurant-info"><img src="./svg/bag-shopping.svg" alt=""><span>Min. 29,00 €</span></div>
-            <div class="restaurant-info"><img src="./svg/bycicle.svg" alt=""><span>2,00 €</span></div>
-         </div>
-         <p>Wir freuen uns, Sie auf unserer Lieferando-Seite begrüßen zu dürfen! Bei uns erwartet Sie eine kulinarische Reise voller Geschmackserlebnisse.</p>
-        </div>
-    </div>
-    
-    <div id="menulist" class="menulist main">
-        <h2>Beliebt ❤️</h2>
-
-           
-
-        </div>
-        <div class="mobile-btn"><button onclick="showPopup()"class="pay mobile-menu">Warenkorb</button></div>
-
-    </section>
-
-    <!-- right side -->
-    <section id="basketContainer" class="basket-container">
-        <div onclick="closePopup()" class="close-btn"><img src="./svg/close.svg" alt=""></div>
-        <div class="flex"><img src="./svg/bag-shopping.svg" alt=""></div>
-        <h2>Fülle deinen Warenkorb</h2>
-        <p class="basket-container-text">Füge einige leckere Gerichte aus der Speisekarte hinzu und bestelle dein Essen.  </p>
-
-</section>
+   
  
 
 
 </div>
 </body>
-<script src="json.js"></script>
-<script src="template.js"></script>
-<script src="script.js"></script>
+
+<script src="./script/script.js"></script>
 </html>
